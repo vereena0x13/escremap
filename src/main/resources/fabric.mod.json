@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "escremap",
+	"version": "${version}",
+	"name": "ESCRemap",
+	"description": "",
+	"authors": [ "vereena0x13" ],
+	"contact": {
+		"homepage": "",
+		"sources": "https://github.com/vereena0x13/escremap"
+	},
+	"license": "MIT",
+	"icon": "assets/escremap/icon.png",
+	"environment": "*",
+	"mixins": [
+		{
+			"config": "escremap.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
